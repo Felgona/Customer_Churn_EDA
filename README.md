@@ -1,14 +1,14 @@
-\# Customer Churn Exploratory Data Analysis (EDA)
+# Customer Churn Exploratory Data Analysis (EDA)
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
 Customer churn represents a significant revenue risk for subscription-based businesses.
 
-With an observed churn rate of approximately \*\*34%\*\*, the company faces substantial lifetime value erosion driven by early-stage attrition, contract structure, pricing sensitivity, and service experience.
+With an observed churn rate of approximately **34%**, the company faces substantial lifetime value erosion driven by early-stage attrition, contract structure, pricing sensitivity, and service experience.
 
 
 
@@ -16,7 +16,7 @@ This project applies structured Exploratory Data Analysis (EDA) and statistical 
 
 
 
-\## Business Problem
+## Business Problem
 
 
 
@@ -28,13 +28,13 @@ Churn reduces revenue stability, increases acquisition costs, and weakens long-t
 
 
 
-\-	Which customer characteristics influence churn?
+*	Which customer characteristics influence churn?
 
-\-	How contract structure affects retention
+*	How contract structure affects retention
 
-\-	Whether pricing impacts churn probability
+*	Whether pricing impacts churn probability
 
-\-	Which service features stabilize customer retention
+*	Which service features stabilize customer retention
 
 
 
@@ -42,139 +42,139 @@ This analysis provides statistical validation of churn drivers to inform targete
 
 
 
-\## 🛠 Methodology
+## 🛠 Methodology
 
 The project followed a structured EDA workflow:
 
 
 
- ### 1.Data Validation \& Cleaning
+### 1.Data Validation & Cleaning
 
 
 
-\-	Checked duplicates and missing values
+*	Checked duplicates and missing values
 
-\-	Handled invalid entries
+*	Handled invalid entries
 
-\-	Applied IQR method for outlier assessment
+*	Applied IQR method for outlier assessment
 
-\-	Standardized categorical formats
+*	Standardized categorical formats
 
 
 
-\### 2. Exploratory Analysis
+### 2. Exploratory Analysis
 
 
 
-\-	Distribution analysis (histograms, boxplots)
+*	Distribution analysis (histograms, boxplots)
 
-\-	Churn segmentation comparisons
+*	Churn segmentation comparisons
 
-\-	Revenue logic validation
+*	Revenue logic validation
 
 
 
-\### 3. Statistical Testing
+### 3. Statistical Testing
 
 
 
-\-	Independent t-tests (normally distributed variables)
+*	Independent t-tests (normally distributed variables)
 
-\-	Mann–Whitney U tests (non-normal distributions)
+*	Mann–Whitney U tests (non-normal distributions)
 
-\-	Chi-square tests (categorical associations)
+*	Chi-square tests (categorical associations)
 
-\-	Cramér’s V (effect size measurement)
+*	Cramér’s V (effect size measurement)
 
-\-	Pearson correlation analysis (numeric relationships)
+*	Pearson correlation analysis (numeric relationships)
 
 
 
-\## Key Results
+## Key Results
 
-\-	Overall churn rate is approximately 34%.
+*	Overall churn rate is approximately 34%.
 
-\-	Short-tenure customers are significantly more likely to churn.
+*	Short-tenure customers are significantly more likely to churn.
 
-\-	Higher monthly charges are associated with increased churn likelihood.
+*	Higher monthly charges are associated with increased churn likelihood.
 
-\-	Tenure and total charges show strong positive correlation (r = 0.77), confirming revenue accumulation over time.
+*	Tenure and total charges show strong positive correlation (r = 0.77), confirming revenue accumulation over time.
 
-\-	Month-to-month customers churn at over 43%, compared to ~21% for long-term contracts.
+*	Month-to-month customers churn at over 43%, compared to ~21% for long-term contracts.
 
-\-	Customers without technical support churn at nearly double the rate of those subscribed.
+*	Customers without technical support churn at nearly double the rate of those subscribed.
 
-\-	Payment method, internet service type, and online security show minimal association with churn.
+*	Payment method, internet service type, and online security show minimal association with churn.
 
-\-	No extreme multicollinearity detected among numeric predictors
+*	No extreme multicollinearity detected among numeric predictors
 
 
 
-\## Business Insights
+## Business Insights
 
-\-	Early-stage customers represent the highest revenue risk segment.
+*	Early-stage customers represent the highest revenue risk segment.
 
-\-	Contract structure significantly influences customer commitment.
+*	Contract structure significantly influences customer commitment.
 
-\-	Technical support acts as a retention stabilizer.
+*	Technical support acts as a retention stabilizer.
 
-\-	Pricing increases churn sensitivity when perceived value is insufficient.
+*	Pricing increases churn sensitivity when perceived value is insufficient.
 
-\-	Revenue stability is structurally dependent on customer tenure.
+*	Revenue stability is structurally dependent on customer tenure.
 
 
 
-\## Recommendations
+## Recommendations
 
-\-	Strengthen onboarding and early engagement strategies to reduce early-stage churn.
+*	Strengthen onboarding and early engagement strategies to reduce early-stage churn.
 
-\-	Incentivize migration from month-to-month contracts to longer-term plans.
+*	Incentivize migration from month-to-month contracts to longer-term plans.
 
-\-	Bundle and actively promote technical support services as retention tools.
+*	Bundle and actively promote technical support services as retention tools.
 
-\-	Reassess value communication for higher-priced plans to reduce pricing sensitivity.
+*	Reassess value communication for higher-priced plans to reduce pricing sensitivity.
 
-\-	Develop targeted retention strategies for short-tenure, high-risk customers.
+*	Develop targeted retention strategies for short-tenure, high-risk customers.
 
 
 
-\## Next Steps
+## Next Steps
 
-\-	Build a predictive churn classification model (Logistic Regression, Random Forest, or Gradient Boosting).
+*	Build a predictive churn classification model (Logistic Regression, Random Forest, or Gradient Boosting).
 
-\-	Perform feature importance analysis to quantify churn driver strength.
+*	Perform feature importance analysis to quantify churn driver strength.
 
-\-	Develop a churn risk scoring system for proactive customer segmentation.
+*	Develop a churn risk scoring system for proactive customer segmentation.
 
-\-	Design and test targeted retention interventions for high-risk groups.
+*	Design and test targeted retention interventions for high-risk groups.
 
-\-	Build an executive dashboard to monitor churn drivers and retention trends over time.
+*	Build an executive dashboard to monitor churn drivers and retention trends over time.
 
 
 
-\## Tools \& Technologies
+## Tools & Technologies
 
-\-	Python
+* Python
 
-\-	Pandas
+* Pandas
 
-\-	NumPy
+* NumPy
 
-\-	Matplotlib
+* Matplotlib
 
-\-	Seaborn
+* Seaborn
 
-\-	SciPy
+*	SciPy
 
-\-	Jupyter Lab
+*	Jupyter Lab
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
-Customer\_Churn\_EDA/
+Customer_Churn_EDA/
 
 ├── data/
 
@@ -190,7 +190,7 @@ Customer\_Churn\_EDA/
 
 
 
-\## Environment \& Reproducibility
+## Environment & Reproducibility
 
 
 
@@ -198,13 +198,13 @@ The analysis was conducted in a dedicated Anaconda virtual environment to ensure
 
 
 
-\- Python 3.10.19  
+* Python 3.10.19  
 
-\- Anaconda Distribution  
+* Anaconda Distribution  
 
-\- JupyterLab Interface  
+* JupyterLab Interface  
 
-\- Isolated project-specific environment  
+* Isolated project-specific environment  
 
 
 
