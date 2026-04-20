@@ -54,6 +54,10 @@ This analysis provides statistical validation of churn drivers to inform targete
 The project followed a structured EDA workflow:
 
 
+### Source of data
+Processed data for analysis is included in `data/data_processed/`.  
+Raw data can be downloaded from [Kaggle](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci).
+
 
 ### 1.Data Validation & Cleaning
 
@@ -129,7 +133,14 @@ The project followed a structured EDA workflow:
 
 *	Revenue stability is structurally dependent on customer tenure.
 
+## Churn Drivers at a Glance
+<p align="center">
+  <img src="images/Churn_Distribution_by_Tenure_and_Monthly_Charges.png" width="800">
+</p>
 
+<p align="center">
+  <img src="images/Churn_Rate_by_Contract_Type_and_Technical_Support.png" width="800">
+</p>
 
 ## Recommendations
 
