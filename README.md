@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue">
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-yellow">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen">
+  <img src="https://img.shields.io/badge/Project-Customer%20Churn%20EDA-blueviolet">
+</p>
+
 # Customer Churn Exploratory Data Analysis (EDA)
 
 
