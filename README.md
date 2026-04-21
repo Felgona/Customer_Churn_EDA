@@ -57,6 +57,8 @@ The project followed a structured EDA workflow:
 ### Source of data
 
 The dataset used in this project is included in the repository `data/customer_churn_dataset`.
+
+
 The dataset contains 20,000 customer records and 11 variables, covering customer tenure, billing information (monthly and total charges), service features (internet service, technical support, online security), contract type, payment method, support interactions, and churn status.
 
 
