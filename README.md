@@ -1,4 +1,4 @@
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/Python-3.x-blue">
   <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-yellow">
   <img src="https://img.shields.io/badge/Status-Completed-brightgreen">
