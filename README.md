@@ -55,8 +55,9 @@ The project followed a structured EDA workflow:
 
 
 ### Source of data
-Processed data for analysis is included in `data/data_processed/`.  
-Raw data can be downloaded from [Kaggle](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci).
+
+The dataset used in this project is included in the repository 'data/customer_churn_dataset.csv'.
+The dataset contains 20,000 customer records and 11 variables, covering customer tenure, billing information (monthly and total charges), service features (internet service, technical support, online security), contract type, payment method, support interactions, and churn status.
 
 
 ### 1.Data Validation & Cleaning
